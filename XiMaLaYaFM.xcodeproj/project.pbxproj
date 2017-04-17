@@ -121,12 +121,12 @@
 		CD1CD72E1EA4ED2200AD0F4E = {
 			isa = PBXGroup;
 			children = (
+				2F3CD846F85F21B5D21A9979 /* Frameworks */,
+				16B0FBA6F44C60E9D95FCA85 /* Pods */,
 				CD1CD7381EA4ED2200AD0F4E /* Products */,
 				CD1CD7391EA4ED2200AD0F4E /* XiMaLaYaFM */,
 				CD1CD7531EA4ED2200AD0F4E /* XiMaLaYaFMTests */,
 				CD1CD75E1EA4ED2200AD0F4E /* XiMaLaYaFMUITests */,
-				16B0FBA6F44C60E9D95FCA85 /* Pods */,
-				2F3CD846F85F21B5D21A9979 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,12 +143,12 @@
 		CD1CD7391EA4ED2200AD0F4E /* XiMaLaYaFM */ = {
 			isa = PBXGroup;
 			children = (
-				CD1CD7401EA4ED2200AD0F4E /* ViewController.h */,
-				CD1CD7411EA4ED2200AD0F4E /* ViewController.m */,
 				CD1CD76D1EA4FF9400AD0F4E /* Classes */,
 				CD1CD73A1EA4ED2200AD0F4E /* Supporting Files */,
 				CD47DFAD1EA54C4A00CB20F9 /* LYViewController.h */,
 				CD47DFAE1EA54C4A00CB20F9 /* LYViewController.m */,
+				CD1CD7401EA4ED2200AD0F4E /* ViewController.h */,
+				CD1CD7411EA4ED2200AD0F4E /* ViewController.m */,
 			);
 			path = XiMaLaYaFM;
 			sourceTree = "<group>";
@@ -214,15 +214,17 @@
 				CD1CD7461EA4ED2200AD0F4E /* Assets.xcassets */,
 			);
 			name = Resource;
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		CD1CD7711EA505A300AD0F4E /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				CD1CD77B1EA506B500AD0F4E /* View */,
 				CD1CD7721EA505B300AD0F4E /* Controller */,
+				CD1CD77B1EA506B500AD0F4E /* View */,
 			);
 			name = Main;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		CD1CD7721EA505B300AD0F4E /* Controller */ = {
@@ -234,20 +236,22 @@
 				CD1CD7791EA5061700AD0F4E /* LYTabBarController.m */,
 			);
 			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		CD1CD77B1EA506B500AD0F4E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CD1CD7821EA5076A00AD0F4E /* LYMiddlePlayView.h */,
+				CD1CD7831EA5076A00AD0F4E /* LYMiddlePlayView.m */,
+				CD1CD7851EA5147D00AD0F4E /* LYMiddlePlayView.xib */,
 				CD1CD77C1EA506EB00AD0F4E /* LYNavigationBar.h */,
 				CD1CD77D1EA506EB00AD0F4E /* LYNavigationBar.m */,
 				CD1CD77F1EA5070100AD0F4E /* LYTabBar.h */,
 				CD1CD7801EA5070100AD0F4E /* LYTabBar.m */,
-				CD1CD7821EA5076A00AD0F4E /* LYMiddlePlayView.h */,
-				CD1CD7831EA5076A00AD0F4E /* LYMiddlePlayView.m */,
-				CD1CD7851EA5147D00AD0F4E /* LYMiddlePlayView.xib */,
 			);
 			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
