@@ -11,7 +11,6 @@
 		CD1CD73C1EA4ED2200AD0F4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD73B1EA4ED2200AD0F4E /* main.m */; };
 		CD1CD73F1EA4ED2200AD0F4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD73E1EA4ED2200AD0F4E /* AppDelegate.m */; };
 		CD1CD7421EA4ED2200AD0F4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD7411EA4ED2200AD0F4E /* ViewController.m */; };
-		CD1CD7451EA4ED2200AD0F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1CD7431EA4ED2200AD0F4E /* Main.storyboard */; };
 		CD1CD7471EA4ED2200AD0F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1CD7461EA4ED2200AD0F4E /* Assets.xcassets */; };
 		CD1CD7551EA4ED2200AD0F4E /* XiMaLaYaFMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD7541EA4ED2200AD0F4E /* XiMaLaYaFMTests.m */; };
 		CD1CD7601EA4ED2200AD0F4E /* XiMaLaYaFMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD75F1EA4ED2200AD0F4E /* XiMaLaYaFMUITests.m */; };
@@ -51,7 +50,6 @@
 		CD1CD73E1EA4ED2200AD0F4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CD1CD7401EA4ED2200AD0F4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CD1CD7411EA4ED2200AD0F4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CD1CD7441EA4ED2200AD0F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD1CD7461EA4ED2200AD0F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD1CD74B1EA4ED2200AD0F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD1CD7501EA4ED2200AD0F4E /* XiMaLaYaFMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiMaLaYaFMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,7 +155,6 @@
 			isa = PBXGroup;
 			children = (
 				CD1CD7701EA504BA00AD0F4E /* Resource */,
-				CD1CD7431EA4ED2200AD0F4E /* Main.storyboard */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -213,7 +210,6 @@
 			children = (
 				CD1CD7461EA4ED2200AD0F4E /* Assets.xcassets */,
 			);
-			name = Resource;
 			path = Resource;
 			sourceTree = "<group>";
 		};
@@ -223,7 +219,6 @@
 				CD1CD7721EA505B300AD0F4E /* Controller */,
 				CD1CD77B1EA506B500AD0F4E /* View */,
 			);
-			name = Main;
 			path = Main;
 			sourceTree = "<group>";
 		};
@@ -235,7 +230,6 @@
 				CD1CD7781EA5061700AD0F4E /* LYTabBarController.h */,
 				CD1CD7791EA5061700AD0F4E /* LYTabBarController.m */,
 			);
-			name = Controller;
 			path = Controller;
 			sourceTree = "<group>";
 		};
@@ -250,7 +244,6 @@
 				CD1CD77F1EA5070100AD0F4E /* LYTabBar.h */,
 				CD1CD7801EA5070100AD0F4E /* LYTabBar.m */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -368,7 +361,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD1CD7471EA4ED2200AD0F4E /* Assets.xcassets in Resources */,
-				CD1CD7451EA4ED2200AD0F4E /* Main.storyboard in Resources */,
 				CD1CD7861EA5147D00AD0F4E /* LYMiddlePlayView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,18 +476,6 @@
 			targetProxy = CD1CD75C1EA4ED2200AD0F4E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CD1CD7431EA4ED2200AD0F4E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD1CD7441EA4ED2200AD0F4E /* Base */,
-			);
-			name = Main.storyboard;
-			path = .;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CD1CD7621EA4ED2200AD0F4E /* Debug */ = {
